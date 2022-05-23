@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>welcome</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+   F Name *: <input type="text"><br>
+   L Name *: <input type="text"><br>
+   Email *: <input type="text"><br>
+   password *:<input type="password"><br>
+   Birthday *:<input type="date"><br>
+  
+     
+  Gender Identity:  <br>
+                  <input type="radio"><label>Male</label>
+                  <input type="radio"><label>Female</label>
+                  <input type="radio"><label>Non-binary</label>
+                  <input type="radio"><label>I prefer not to answer</label>
+
+  A short description about myself:<br>
+        <textarea ></textarea><br>
+      Favorite Language:<select>
+            <option >js</option>
+            <option >php</option>
+            <option >c</option>
+            <option >c++</option>
+      </select>
+  <br><br>
+    
+<input type="checkbox"><label>Yes, I would like to receive periodic email updates</label><br>
+<input type="submit" value="create account">
+  <p>* Indicates a required field</p>
+</body>
+</html>
